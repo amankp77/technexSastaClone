@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color:#1d1d1d;
+}
+
+.img-title{
+    width: 350px;
+}
+
+header{
+    display: flex;
+
+}
+
+
+.heading{
+  color:white;
+  font-size:50px;
+  margin-top:15px;
+  font-family:"Montserrat","sans-serif";
+  font-weight:500;
+  text-align: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: auto;
+    flex-wrap: wrap;
+    
+}
+
+
+.para{
+    color: white;
+    text-align: center;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'gilroy','sans-serif';
+}
+.nav-link{
+    color: white;
+    padding: 10px 15px;
+    font-size: 19px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 35px;
+    font-family: 'gilroy','sans-serif';
+    
+}
+
+.ca{
+    border: 2px solid red;
+    border-radius:50px;
+}
+
+.login{
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+}
+
+.nav-link:last-child{
+    margin-right: 0;
+}
+
+.event-cont{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+
+}
+
+.a{
+  color:white;
+  font-family:"Montserrat Alternates","sans-serif";
+  font-size:1.5rem;
+  position:relative;
+  display:inline-block;
+  padding:10px 20px;
+  overflow:hidden;
+  flex-wrap: wrap;
+}
+
+
+.grad-1{
+  position:absolute;
+  top:0;
+  left:-100%;
+  background-image: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(254,110,110,1) 100%);
+  height:2px;
+  width:100%;
+
+}
+
+.a:hover .grad-1{
+  left:100%;
+  transition:all 0.6s;
+  
+}
+
+.grad-2{
+  position:absolute;
+  top:-100%;
+  right:0;
+  background-image: linear-gradient(to bottom, rgba(2,0,36,0) 0%, rgba(254,110,110,1) 100%);
+  height:100%;
+  width:2px;
+  
+}
+.a:hover .grad-2{
+  top:100%;
+  transition:all 0.6s;
+  transition-delay: .25s;
+}
+
+.grad-3{
+  position:absolute;
+  bottom:0;
+  right:-100%;
+  background-image: linear-gradient(to left, rgba(2,0,36,0) 0%, rgba(254,110,110,1) 100%);
+  height:2px;
+  width:100%;
+}
+
+.a:hover .grad-3{
+  right:100%;
+  transition:all 0.6s 0.5s;
+  
+}
+.grad-4{
+  position:absolute;
+  bottom:-100%;
+  left:0;
+  background-image: linear-gradient(to top, rgba(2,0,36,0) 0%, rgba(254,110,110,1) 100%);
+  height:100%;
+  width:2px;
+}
+
+.a:hover .grad-4{
+  bottom:100%;
+  transition:all 0.6s 0.75s;
+}
+
+
+.a:hover{
+  background-color:#fe6e6e;
+  box-shadow:0 0 10px #fe6e6e,0 0 20px #fe6e6e,0 0 40px #fe6e6e;
+  transition:all 0.2s 1s;
+}
+
+
+.card{
+    width: 65rem;
+    height:20rem;
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.card:last-child{
+    margin-bottom: 30px !important;
+}
+
+.tnc{
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+    text-decoration:underline;
+}
+.card .left{
+    width: 35%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+
+}
+
+.left__img{
+   height: 100%;
+   background-image:linear-gradient(to top , black , transparent 60%,transparent 100% ),url("https://technex.co.in/images/events/CodingMarathon.webp");
+}
+
+.left__text{
+    color:white;
+    position: absolute;
+    bottom: 7px;
+    left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card .right{
+    display: inline-block;
+    width: 64%;
+    height: 100%;
+    padding: 20px;
+}
+
+.right_heading{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: "gilroy","sans-serif";
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+}
+
+.right_para{
+     font-size: 17px;
+     font-family: 'gilroy','sans-serif';
+     font-weight: 400;
+     margin-bottom: 30px;
+}
+
+.right_contact{
+    font-size: 17px;
+     font-family: 'gilroy','sans-serif';
+     font-weight: 450;
+     margin-bottom: 20px;
+}
+
+.right_btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right_register{
+        font-family: 'gilroy','sans-serif';
+    background-color: #fe6e6e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    transition: all 0.3s;
+}
+
+.right_psbtn{
+    font-family: 'gilroy','sans-serif';
+    color: white;
+    padding: 10px 15px;
+    color: #fe6e6e;
+    position: relative;
+    z-index: 1;
+
+}
+
+.right_psbtn::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    border-radius: 100px;
+    background-color: #fe6e6e;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.right_psbtn:hover{
+    color: white;
+}
+
+.right_psbtn:hover::after{
+    height: 100%;
+}
+
+
+.right_register:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #fe6e6eb9;
+}
+
+
+
+
+
+@media (max-width:1200px) {
+
+    
+
+   .para{
+       width: 90vw;;
+   }
+    .card{
+        flex-direction: column;
+        width: 80%;
+        height:30%;
+    }
+
+
+    .card .left{
+        width: 100%;
+        height: 100%;
+       
+    }
+
+    .left__img{
+        height: 250px;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     
+
+    .card .right{
+        width: 100%;
+    }
+   /* .right_btn{
+       flex-direction: column;
+   }
+
+    .right_psbtn{
+        width: fit-content;
+    }
+
+    .right_register{
+        width:fit-content;
+    } */
+
+    .right_psbtn{
+        margin-bottom: 10px;
+    }
+
+    
+    
+}
+
+@media (max-width:950px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation{
+        justify-content: center;
+    }
+
+    .right_btn{
+        flex-direction: column;
+    }
+ 
+     .right_psbtn{
+         width: fit-content;
+     }
+ 
+     .right_register{
+         width:fit-content;
+     }
+}
+
+
+@media (max-width:600px) {
+   
+}
