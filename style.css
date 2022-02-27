@@ -107,7 +107,7 @@ header{
 
 .a:hover .grad-1{
   left:100%;
-  transition:all 0.6s;
+  transition:all 0.8s;
   
 }
 
@@ -122,7 +122,7 @@ header{
 }
 .a:hover .grad-2{
   top:100%;
-  transition:all 0.6s;
+  transition:all 0.8s;
   transition-delay: .25s;
 }
 
@@ -137,7 +137,7 @@ header{
 
 .a:hover .grad-3{
   right:100%;
-  transition:all 0.6s 0.5s;
+  transition:all 1.2s 0.5s;
   
 }
 .grad-4{
@@ -151,14 +151,14 @@ header{
 
 .a:hover .grad-4{
   bottom:100%;
-  transition:all 0.6s 0.75s;
+  transition:all 1.6s 0.75s;
 }
 
 
 .a:hover{
   background-color:#fe6e6e;
   box-shadow:0 0 10px #fe6e6e,0 0 20px #fe6e6e,0 0 40px #fe6e6e;
-  transition:all 0.2s 1s;
+  transition:all 0.2s 1.4s;
 }
 
 
